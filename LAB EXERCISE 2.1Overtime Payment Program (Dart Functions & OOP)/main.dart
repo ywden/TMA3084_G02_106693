@@ -1,10 +1,10 @@
 import 'myLib.dart' as emp;
 
-void main(){
+void main() {
   double extraPayPerHr;
-  var wendy= emp.Employee('Manager', 'Edinburgh', 5000,7);
+  var wendy = emp.Employee('Manager', 'Edinburgh', 5000, 7);
 
-  if(wendy.salary >= 4000){
+  if (wendy.salary >= 4000) {
     extraPayPerHr = 10;
   } else {
     extraPayPerHr = 20;

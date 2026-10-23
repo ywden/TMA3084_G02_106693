@@ -1,4 +1,4 @@
-class Employee{
+class Employee {
   late String jobTitle;
   late String location;
   late double salary;
