@@ -45,7 +45,7 @@ class MenuScreen extends StatelessWidget {
               color: Colors.orange,
               child: ListTile(
                 leading: Image.asset(
-                  'assets/images/pizza_2.png',
+                  'assets/images/pizza_2.jpg',
                   width: 40,
                 ),
                 title: const Text(
@@ -63,7 +63,7 @@ class MenuScreen extends StatelessWidget {
               color: Colors.orange,
               child: ListTile(
                 leading: Image.asset(
-                  'assets/images/fries.png',
+                  'assets/images/fries.jpg',
                   width: 40,
                 ),
                 title: const Text(

@@ -15,13 +15,21 @@ class FriesScreen extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              'assets/images/fries.png',
+              'assets/images/fries.jpg',
               width: 200,
             ),
             const Text(
               'Box of Fries is a serving of hot and crispy '
               'fries.',
             ),
+            const SizedBox(height: 30),
+
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text('Back'),
+            )
           ],
         ),
       ),

@@ -18,7 +18,7 @@ class CheesePizzaScreen extends StatelessWidget {
           children: [
 
             Image.asset(
-              'assets/images/pizza_2.png',
+              'assets/images/pizza_2.jpg',
               width: 200,
             ),
 
